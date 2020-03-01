@@ -59,6 +59,13 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Analytics
+analytics:
+  provider               : "google"
+  google:
+    tracking_id          : UA-159370643-1
+    anonymize_ip         : false # true, false (default)
+
 author:
   name   : "Luftikus74"
   avatar : "/assets/images/bio-photo.jpg"
